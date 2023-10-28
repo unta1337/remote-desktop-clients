@@ -459,6 +459,18 @@ public class RdpKeyboardMapper
         keymapExt[context.getResources().getInteger(R.integer.keycode_toggle_alt)] = (KEY_FLAG_TOGGLE | VK_LMENU);
         keymapExt[context.getResources().getInteger(R.integer.keycode_toggle_win)] = (KEY_FLAG_TOGGLE | VK_LWIN);    
 
+        // Android KeyEvent -> Virtual Key Code
+        // Ref:
+        //     Android KeyEvent:
+        //         [Android Developers: KeyEvent] https://developer.android.com/reference/android/view/KeyEvent
+        //     Virtual Key Code:
+        //         [Virtual-Key Code] https://learn.microsoft.com/ko-kr/windows/win32/inputdev/virtual-key-codes
+        //         [List of Virtual Key Codes] http://www.kbdedit.com/manual/low_level_vk_list.html
+
+        keymapAndroid[KeyEvent.KEYCODE_META_LEFT] = VK_LWIN | VK_EXT_KEY;           // Meta Key -> Windows Key
+        keymapAndroid[KeyEvent.KEYCODE_LANGUAGE_SWITCH] = VK_RMENU | VK_EXT_KEY;    // Language Switch Key -> Right Alt (Right Alt is commonly used to switch between Korean and English)
+        keymapAndroid[120] = VK_SNAPSHOT;                                           // Screen Capture
+
         initialized = true;
     }
 
