@@ -7,9 +7,13 @@ jobs:
       - name: Get latest code
         uses: actions/checkout@v3
 
-      - name: Build
+      - name: Build 1
         shell: bash
-        run: gradle build
+        run: ./download-prebuilt-dependencies.sh
+
+      - name: Build 2
+        shell: bash
+        run: ./bVNC/prepare_project.sh --skip-build libs nopath
 
       - name: test
         shell: bash
