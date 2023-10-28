@@ -15,6 +15,10 @@ jobs:
         shell: bash
         run: ./bVNC/prepare_project.sh --skip-build libs nopath
 
+      - name: Build 3
+        shell: bash
+        run: gradle build
+
       - name: test
         shell: bash
         run: tree .
