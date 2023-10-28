@@ -219,7 +219,7 @@
     <item>@string/connection_type_vnc_over_vencrypt</item>
     <item>@string/connection_type_vnc_over_stunnel</item>
   </string-array>
-  <string name="connection_type_caption">연결 타입</string>
+  <string name="connection_type_caption">연결 종류</string>
   <string name="connection_type_rdp">RDP</string>
   <string name="connection_type_rdp_over_ssh">SSH경유 RDP</string>
   <string name="connection_type_spice">SPICE</string>
@@ -241,10 +241,10 @@
   <string name="delete_connection">연결을 삭제</string>
   <string name="delete_key">선택한 키를 삭제</string>
   <string name="delete_key_list">키 리스트를 삭제</string>
-  <string name="disconnect">절단</string>
-  <string name="dpad_as_arrows">화살표 키는 D-Pad를, Ctrl키는 D-Pad 클릭을 사용한다.</string>
-  <string name="enable_recording">녹화를 활성화하기</string>
-  <string name="enable_sound">사운드를 활성화하기</string>
+  <string name="disconnect">연결 해제</string>
+  <string name="dpad_as_arrows">화살표 키로 D-Pad를, Ctrl키로 D-Pad 클릭 사용</string>
+  <string name="enable_recording">녹화 활성화</string>
+  <string name="enable_sound">소리 활성화</string>
   <string name="enter_text">텍스트 전송</string>
   <string name="enter_text_title">전송용 텍스트 입력</string>
 
@@ -287,8 +287,8 @@
   <string name="freeardp_app_name">aRDP Free</string>
   <string name="freeaspice_app_name">aSPICE Free</string>
   <string name="freebvnc_app_name">bVNC Free</string>
-  <string name="immersive_mode_disable">Immersive 모드를 비활성화</string>
-  <string name="import_export_settings">Import/Export</string>
+  <string name="immersive_mode_disable">몰입 모드 비활성화</string>
+  <string name="import_export_settings">가져오기/내보내기</string>
   <string name="import_settings">Import</string>
   <string name="import_settings_file_url" />
   <string name="info">정보</string>
@@ -417,9 +417,9 @@ bVNC의 대응 기능는 이하와 같습니다 :
   <string name="intro_title">bVNC: 직관적이고 안전한 VNC 클라이언트</string>
   <string name="intro_version_text" />
   <string name="keep_password_button">저장</string>
-  <string name="keep_screen_awake_enable">Sleep 모드를 비활성화하는</string>
+  <string name="keep_screen_awake_enable">Sleep 모드 비활성화</string>
   <string name="keys_caption">키</string>
-  <string name="landscape_force">강제 가로 설정</string>
+  <string name="landscape_force">화면 방향을 가로로 고정</string>
   <string name="left_handed_mode">왼손 모드</string>
   <string name="list_caption">리스트</string>
   <string name="list_name_caption">리스트 이름</string>
@@ -469,21 +469,21 @@ bVNC의 대응 기능는 이하와 같습니다 :
 
 [접속의 검색]필드를 사용하면, 표시되어 있는 접속을 필터링해서 접속을 신속하게 찾을 수 있습니다."
   </string>
-  <string name="master_password_enable">마스터 Password를 활성화하는</string>
-  <string name="master_password_error_failed_to_disable">마스터 Password를 비활성화 할 수 없습니다.기기의 가능한 용량을 확인하고 다시 실행하십시오.</string>
-  <string name="master_password_error_failed_to_enable">마스터 Password를 활성화 할 수 없습니다.기기의 가능한 용량을 확인하고 다시 실행하십시오.</string>
-  <string name="master_password_error_intents_not_supported">마스터 Password활성화 된 경우 연결 취지가 지원되지 않습니다.</string>
-  <string name="master_password_error_password_necessary">계속하려면 마스터 Password가 필요합니다.</string>
-  <string name="master_password_error_password_not_set">설정 마스터 Password가 취소되었습니다.</string>
-  <string name="master_password_error_shortcuts_not_supported">마스터 Password를 활성화 시켰을 때 단축키는 지원되지 않습니다.</string>
-  <string name="master_password_error_wrong_password">공급 된 마스터 Password로 인증 할 수 없습니다.</string>
-  <string name="master_password_hint_once">Password 입력.</string>
-  <string name="master_password_hint_twice">Password 재 입력.</string>
-  <string name="master_password_set">마스터 Password 설정</string>
-  <string name="master_password_set_error">Password가 일치하지 않습니다. 확인하십시오.</string>
-  <string name="master_password_set_message">마스터 Password를 입력하고 잊지 않도록하십시오.Password 자릿수가 길수록 분석 된 어렵습니다.잘못된 설정을하거나 잊어 버린 경우 모든 설정이 손상됩니다!! 기존 설정을 백업로 Export 할 것을 권장합니다(메뉴에서 가능).Export 된 데이터는 암호화되지 않습니다.안전한 장소에 보관하십시오.</string>
-  <string name="master_password_verify">마스터 Password 를 확인하기</string>
-  <string name="master_password_verify_message">계속을 위해 마스터 Password를 정확하게 입력하십시오.</string>
+  <string name="master_password_enable">마스터 비밀번호를 활성화</string>
+  <string name="master_password_error_failed_to_disable">마스터 비밀번호를 비활성화 할 수 없습니다.기기의 가능한 용량을 확인하고 다시 실행하십시오.</string>
+  <string name="master_password_error_failed_to_enable">마스터 비밀번호를 활성화 할 수 없습니다.기기의 가능한 용량을 확인하고 다시 실행하십시오.</string>
+  <string name="master_password_error_intents_not_supported">마스터 비밀번호가 활성화 된 경우 연결 (Intent)이 지원되지 않습니다.</string>
+  <string name="master_password_error_password_necessary">계속하려면 마스터 비밀번호가 필요합니다.</string>
+  <string name="master_password_error_password_not_set">설정 마스터 비밀번호가 취소되었습니다.</string>
+  <string name="master_password_error_shortcuts_not_supported">마스터 비밀번호를 활성화 시켰을 때 단축키는 지원되지 않습니다.</string>
+  <string name="master_password_error_wrong_password">공급 된 마스터 비밀번호로 인증 할 수 없습니다.</string>
+  <string name="master_password_hint_once">비밀번호 입력</string>
+  <string name="master_password_hint_twice">비밀번호 재입력</string>
+  <string name="master_password_set">마스터 비밀번호 설정</string>
+  <string name="master_password_set_error">비밀번호가 일치하지 않습니다. 확인하십시오.</string>
+  <string name="master_password_set_message">마스터 비밀번호를 입력하고 잊지 않도록하십시오.Password 자릿수가 길수록 분석 된 어렵습니다.잘못된 설정을하거나 잊어 버린 경우 모든 설정이 손상됩니다!! 기존 설정을 백업로 Export 할 것을 권장합니다(메뉴에서 가능).Export 된 데이터는 암호화되지 않습니다.안전한 장소에 보관하십시오.</string>
+  <string name="master_password_verify">마스터 비밀번호를 확인하기</string>
+  <string name="master_password_verify_message">계속을 위해 마스터 비밀번호를 정확하게 입력하십시오.</string>
   <string name="meta_key_title">특수 키를 보내기</string>
 
   <string name="mouse_follow_pan">마우스가 팬을 따라갑니다</string>
@@ -491,7 +491,7 @@ bVNC의 대응 기능는 이하와 같습니다 :
   <string name="new_connection">새 연결</string>
   <string name="new_list_button">새 리스트</string>
   <string name="nickname_caption">별명</string>
-  <string name="nickname_caption_hint">제목 (임의)</string>
+  <string name="nickname_caption_hint">제목 (선택)</string>
 
   <string name="off">Off</string>
 
@@ -509,32 +509,32 @@ bVNC의 대응 기능는 이하와 같습니다 :
   <string name="port_hint">포트</string>
   <string name="port_ssh_hint">포트</string>
   <string name="portrait_mode">연결될 때 세로 표시에 전환</string>
-  <string name="position_toolbar_last_used">Toolbar 위치 초기화</string>
-  <string name="applies_to_new_connections_only">새 연결만 적용</string>
-  <string name="pro_feature_mfa">서버의 다단계 인증이 활성화되어 있습니다.다단계 인증을 지원하고있는 Pro버전을 구입하십시오.Pro버전의 링크가 시작할 때 표시되는 화면에 있습니다</string>
+  <string name="position_toolbar_last_used">툴바 위치 초기화</string>
+  <string name="applies_to_new_connections_only">새 연결에 적용</string>
+  <string name="pro_feature_mfa">서버의 다단계 인증이 활성화되어 있습니다. 다단계 인증을 지원하고있는 Pro버전을 구입하십시오. Pro버전의 링크가 시작할 때 표시되는 화면에 있습니다</string>
   <string name="rdp_address_caption_hint">RDP 서버</string>
   <string name="rdp_adv_console_mode">콘솔 모드</string>
-  <string name="rdp_adv_desktop_background">데스크탑 배경을 표시</string>
-  <string name="rdp_adv_desktop_composition">데스크탑 컴포지션을 활성화하는</string>
+  <string name="rdp_adv_desktop_background">바탕 화면 표시</string>
+  <string name="rdp_adv_desktop_composition">Desktop Composition 활성화</string>
   <string name="rdp_adv_font_smoothing">글꼴 다듬기 수행</string>
-  <string name="rdp_adv_menu_animation">메뉴 애니메이션을 표시</string>
-  <string name="rdp_adv_redirect_sdcard">SD카드를 리디렉션</string>
-  <string name="rdp_adv_remotefx">RemoteFX를 활성화</string>
-  <string name="rdp_adv_visual_styles">Visual Styles를 활성화</string>
+  <string name="rdp_adv_menu_animation">메뉴 애니메이션 표시</string>
+  <string name="rdp_adv_redirect_sdcard">SD카드 리디렉션</string>
+  <string name="rdp_adv_remotefx">RemoteFX 활성화</string>
+  <string name="rdp_adv_visual_styles">Visual Styles 활성화</string>
   <string name="rdp_adv_window_contents">드래그중에 윈도우 컨텐츠을 표시</string>
   <string-array name="rdp_connection_type">
     <item>@string/connection_type_rdp</item>
     <item>@string/connection_type_rdp_over_ssh</item>
   </string-array>
   <string name="rdp_descript_geom">리모트 데스크탑 크기(WxH)</string>
-  <string name="rdp_domain_hint">RDP도메인</string>
+  <string name="rdp_domain_hint">RDP 도메인</string>
   <string name="rdp_geom_automatic">자동</string>
   <string name="rdp_geom_checkbox_enable">사용자 지정 해상도를 활성화</string>
   <string name="rdp_geom_custom">사용자 지정</string>
   <string name="rdp_geom_description_hint">서버 측에서 ExtendedDesktopSize의 대응이 필요</string>
   <string name="rdp_geom_disabled">무효</string>
-  <string name="rdp_geom_native_landscape">원래 디바이스 가로 방향</string>
-  <string name="rdp_geom_native_portrait">원래 디바이스 세로 방향</string>
+  <string name="rdp_geom_native_landscape">기기 가로 방향</string>
+  <string name="rdp_geom_native_portrait">기기 세로 방향</string>
   <string-array name="rdp_geometry">
     <item>@string/rdp_geom_native_landscape</item>
     <item>@string/rdp_geom_native_portrait</item>
@@ -657,12 +657,12 @@ aRDP지원 예정 기능:
     (b) D-Pad의 회전 : Bluetooth 키보드와 페어링 된 스마트 폰의 경우,올바른 방향을 서버로 전송하기 위해 키보드의 D-Pad를 반 시계 방향으로 회전시킬 필요가 있습니다.
     (c)　로컬 마우스 포인터: 마우스 포인터가 표시되지 않는 경우이 기능을 사용하여 aRDP 따라 마우스 위치 표시가 가능."
   </string>
-  <string name="rdp_password_hint">RDP Password</string>
+  <string name="rdp_password_hint">RDP 비밀번호</string>
   <string name="rdp_server_empty">RDP서버 혹은 포트가 비어 있습니다. 연결할 수 없습니다!</string>
   <string name="rdp_username_hint">RDP 사용자 이름</string>
-  <string name="remote_sound_disabled">사운드 무효</string>
-  <string name="remote_sound_on_device">사운드 온 디바이스</string>
-  <string name="remote_sound_on_server">사운드 온 서버</string>
+  <string name="remote_sound_disabled">원격 오디오 - 재생 안함</string>
+  <string name="remote_sound_on_device">원격 오디오 - 이 컴퓨터에서 재생</string>
+  <string name="remote_sound_on_server">원격 오디오 - 원격 컴퓨터에서 재생</string>
   <string name="repeater_button">UltraVNC 리피터</string>
   <string name="repeater_caption">중요: UltraVNC 리피터 사용시 IP주소와 포트 번호는이 다이얼로그 외에서 입력하십시오.여기에서는 실제 VNC서버의 IP주소와 포트 번호를 입력하십시오. VNC서버의 IP주소와 포트 번호는 콜론으로 구분합니다. 예:192.168.0.100:5900</string>
   <string name="repeater_caption_hint">UltraVNC 리피터</string>
@@ -671,8 +671,8 @@ aRDP지원 예정 기능:
   <string name="repeater_empty_text">리피터 기능 없음</string>
   <string name="repeater_save">사용</string>
   <string name="right_alt_as_iso_l3_shift">SO L3 시프트용으로 오른쪽 Alt(VNC한정)</string>
-  <string name="rotate_dpad">Bluetooth 혹은 소프트 D-Pad를 회전</string>
-  <string name="save_as_copy">복사본을 저장</string>
+  <string name="rotate_dpad">블루투스 혹은 소프트 D-Pad를 회전</string>
+  <string name="save_as_copy">사본 저장</string>
   <string name="scaling">스케일링</string>
   <string name="scaling_zoomable">확대 축소 가능</string>
   <!-- Send selected metakey -->
@@ -793,11 +793,11 @@ aSPICEで의 대응 기능는 이하와 같다 :
 　　(a) SSH 서버/포트: SSH 서버 IP주소와 포트 번호. 기본 포트 번호는 22.
 　　(b) 사용자 이름/Password  SSH서버 계정 정보(사용자 이름/Password).aRDP을 중단하지 않으면 입력 한 Password 입력 된 상태로된다.
 　　(c) 키 관리/키의 사용 : 공개 키/비밀 키 관리 용 스위치. 인증 방법 Password 대신 키 사용 여부 체크 박스. key-pair(공개 키와 비밀 키) 생성 후 클립포드에 복사를 실행하면 SPICE 서버에 연결 한 후 공개 키 붙여 넣기가 가능합니다.(클립 보드는 서버에 동기화되는)
- 
+
 ・SPICE연결 설정:
 　　(a)SPICE 서버 / 포트 : SPICE 서버를 가동하는 컴퓨터의 호스트 이름 혹은 IP 주소와 포트 번호를 입력합니다. SSH를 통한 SPICE 모드의 경우이 IP 주소는 SSH 서버에서도 볼 수 있습니다. SSH 서버와 SPICE 서버가 동일한 컴퓨터 인 경우 localhost를 사용할 수 있습니다. SPICE 서버는 일반적으로 포트 5900에서 시작합니다.
 　　(d) SPICE Password : SPICE 세션의 보호를 위해 Password를 입력합니다. Password 용 시큐어 스토리지는 사용되지 않는 (데이터베이스에 저장된다.) "저장"에 체크 한 경우에만 Password 저장됩니다. aSPICE을 중단하지 않으면 입력 한 Password 입력 된 상태로됩니다.
- 
+
 ・상세 설정: 여기에서는 데스크탑 해상도의 사용자 설정 또는 SPICE 성능의 미세 조정을 실시한다.
 
 ・로컬 기기 조정: 사용 단말기에서 aSPICE 동작 조정한다.
@@ -848,8 +848,8 @@ aSPICEで의 대응 기능는 이하와 같다 :
   <string name="copy_of">복사</string>
   <string name="ssh_key_generated">새 키가 성공적으로 작성 혹은 가져 오는되었습니다. \'Generate/Export Key\'스위치를 탭하고 공유 클립 보드로 복사, 공개 키 내보내기 가능합니다.</string>
   <string name="ssh_tunnel_settings">SSH 터널 설정</string>
-  <string name="cursor_force_local">"로컬"</string>
-  <string name="cursor_force_disable">"무효"</string>
+  <string name="cursor_force_local">"이 기기"</string>
+  <string name="cursor_force_disable">"사용 안 함"</string>
   <string name="cursor_mode">"커서 모드 :"</string>
   <string name="rendering_mode">"렌더링 모드 :"</string>
   <string name="color_24_bit">"24비트 컬러(24 bpp)"</string>
@@ -896,7 +896,7 @@ aSPICEで의 대응 기능는 이하와 같다 :
   <string name="rdp_adv_gfx">RDP Gfx</string>
   <string name="rdp_adv_gfxh264">RDP Gfx H264</string>
   <string name="more_debug_logging">기타 디버그 로그</string>
-  <string name="prefer_sending_unicode">유니코드 입력(Windows만 해당)</string>
+  <string name="prefer_sending_unicode">유니코드 입력 (Windows만 해당)</string>
   <string name="hide_connection_thumbnails">썸네일 비표시</string>
   <string name="show_only_connection_nicknames">닉네임 표시</string>
 </resources>
