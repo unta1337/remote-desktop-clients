@@ -1,0 +1,25 @@
+on:
+  workflow_call:
+jobs:
+  build:
+    name: Build Project (Linux)
+    runs-on: ubuntu-lab
+    steps:
+      - name: Get latest code
+        uses: actions/checkout@v3
+
+      - name: Build
+        shell: bash
+        run: gradle build
+
+      - name: test
+        shell: bash
+        run: tree .
+
+#      - name: Upload artifact
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: build
+#          path: |
+#            ./*
+#            ./*
