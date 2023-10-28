@@ -2,7 +2,7 @@ on: [push]
 jobs:
   build:
     name: Build Project (Linux)
-    runs-on: ubuntu-lab
+    runs-on: ubuntu-22.04
     steps:
       - name: Get latest code
         uses: actions/checkout@v3
