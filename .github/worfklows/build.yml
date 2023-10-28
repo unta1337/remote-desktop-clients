@@ -1,5 +1,4 @@
-on:
-  workflow_call:
+on: [push]
 jobs:
   build:
     name: Build Project (Linux)
